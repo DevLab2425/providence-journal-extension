@@ -1,0 +1,28 @@
+{
+	"manifest_version": 2,
+
+	"name": "Providence Journal Digital Subscription Override",
+	"description": "This extension will hide the digital subscrition modal warning.",
+	"version": "1.0",
+
+	"browser_action": {
+		"default_icon": "icon_32x32.png",
+		"default_title": "Hide the Digital Subscription modal on providencejournal.com"
+	},
+	
+	"icons": {
+		"256" : "icon_64x64.png"
+	},
+	
+	"permissions": [
+		"tabs",
+		"http://www.providencejournal.com/*"
+	],
+	
+	"background": {
+		"scripts": [
+			"actionScripts.js"
+		], 
+		"persistent": false
+	}
+}
