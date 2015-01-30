@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
 
-	"name": "Providence Journal Digital Subscription Override",
+	"name": "Providence Journal Digital Subscription",
 	"description": "This extension will hide the digital subscrition modal warning.",
 	"version": "1.0",
 
